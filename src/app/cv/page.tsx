@@ -7,18 +7,13 @@ const CVPage = () => {
     const education = [
         {
             degree: 'Ph.D. in Clinical Medicine',
-            university: 'Peking Union Medical College',
-            years: '2018 - 2021',
+            university: 'Peking Union Medical College / Tsinghua University',
+            years: '2021 - 2025',
         },
         {
             degree: 'Master of Internal Medicine',
-            university: 'University of South China',
-            years: '2015 - 2018',
-        },
-        {
-            degree: 'Bachelor of Clinical Medicine',
-            university: 'University of South China',
-            years: '2010 - 2015',
+            university: 'West China Medical Center / Sichuan Medical University',
+            years: '2018 - 2021',
         },
     ];
 
@@ -37,8 +32,6 @@ const CVPage = () => {
         'Animal Model Development (RA, RA-ILD)',
         'Cell Culture (Mesenchymal Stem Cells, Urine-derived Stem Cells)',
         'Multi-omics Data Analysis (Single-cell Transcriptomics)',
-        'Flow Cytometry',
-        'Western Blot, qPCR, ELISA',
         'Histology and Immunofluorescence',
     ];
 
