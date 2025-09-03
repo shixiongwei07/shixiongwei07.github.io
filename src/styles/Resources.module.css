@@ -1,0 +1,13 @@
+.resourceList {
+    list-style: none;
+    padding: 0;
+}
+
+.resourceList li {
+    margin-bottom: 2.5rem;
+}
+
+.links a {
+    margin-right: 1rem;
+    font-weight: 600;
+}

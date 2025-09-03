@@ -1,0 +1,43 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.profilePic {
+    border-radius: 50%;
+    border: 3px solid var(--accent-color);
+}
+
+.newsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.newsList li {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.newsList li::before {
+    content: '→';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .profileContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.profileTextContainer {
+    display: flex;
+    flex-direction: column;
+}

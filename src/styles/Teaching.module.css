@@ -1,0 +1,8 @@
+.courseList {
+    list-style: none;
+    padding: 0;
+}
+
+.courseList li {
+    margin-bottom: 2rem;
+}

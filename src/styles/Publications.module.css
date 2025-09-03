@@ -1,0 +1,25 @@
+.publicationList {
+    list-style: none;
+    padding: 0;
+}
+
+.publicationList li {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--accent-color);
+}
+
+.publicationList p {
+    margin: 0.25rem 0;
+}
+
+.links a {
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.details {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary-text-color);
+}

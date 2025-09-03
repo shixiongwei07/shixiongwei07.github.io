@@ -1,0 +1,85 @@
+/* --- CSS Variables --- */
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --accent-color: #007bff;
+    --accent-hover-color: #0056b3;
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+}
+
+/* Light Theme (Default) */
+:root, [data-theme='light'] {
+    --bg-color: #f9f9f9;
+    --surface-color: #ffffff;
+    --primary-text-color: #333333;
+    --secondary-text-color: #666666;
+    --border-color: #e0e0e0;
+    --header-bg: rgba(255, 255, 255, 0.8);
+    --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+    --bg-color: #121212;
+    --surface-color: #1e1e1e;
+    --primary-text-color: #e0e0e0;
+    --secondary-text-color: #a0a0a0;
+    --border-color: #333333;
+    --header-bg: rgba(30, 30, 30, 0.8);
+    --card-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* --- Base & Typography --- */
+body {
+    font-family: var(--font-poppins);
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+    font-weight: 400;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+h2 {
+    font-size: 2.2rem;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color var(--transition-speed) ease;
+}
+
+a:hover {
+    color: var(--accent-hover-color);
+}
+
+main {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background-color: var(--surface-color);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+}

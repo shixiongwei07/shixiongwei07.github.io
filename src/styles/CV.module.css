@@ -1,0 +1,53 @@
+.cvContainer h3 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.cvContainer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cvList {
+    list-style-position: outside;
+    padding-left: 1.5rem;
+}
+
+.cvList li {
+    margin-bottom: 1rem;
+}
+
+.skillsList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skillsList li {
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#cv-header {
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 2rem;
+}
+
+#cv-header h2 {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+#cv-header h3 {
+    border-bottom: none;
+    margin-top: 0;
+}
