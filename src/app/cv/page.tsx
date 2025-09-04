@@ -7,22 +7,20 @@ const CVPage = () => {
     const education = [
         {
             degree: 'Ph.D. in Clinical Medicine',
-            university: 'Peking Union Medical College / Tsinghua University',
+            university: 'Peking Union Medical College Hospital / Peking Union Medical College / Tsinghua University',
             years: '2021 - 2025',
         },
         {
             degree: 'Master of Internal Medicine',
-            university: 'West China Medical Center / Sichuan Medical University',
+            university: 'West China Hospital of Sichuan University',
             years: '2018 - 2021',
         },
     ];
 
     const awards = [
-        { year: 2023, title: 'Excellent Poster, Chinese Rheumatology Association' },
-        { year: 2021, title: 'Outstanding Graduate, Peking Union Medical College' },
-        { year: 2020, title: 'National Scholarship for Doctoral Candidates' },
-        { year: 2019, title: 'Academic Scholarship, Peking Union Medical College' },
-        { year: 2018, title: 'Outstanding Graduate Student, University of South China' },
+        { year: 2025, title: 'Outstanding Graduate, Peking Union Medical College' },
+        { year: 2022, title: 'Academic Scholarship, Peking Union Medical College' },
+        { year: 2021, title: 'Outstanding Graduate Student, West China Hospital of Sichuan University' },
     ];
 
     const skills = [
